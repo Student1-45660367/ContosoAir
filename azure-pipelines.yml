@@ -1,6 +1,5 @@
-
    pool:
-     name: 'Default'
+     name: 'default'
    trigger:
      - master
    steps:
@@ -26,5 +25,3 @@
          targetPath: '$(build.artifactstagingdirectory)'
          artifact: 'drop'
          publishLocation: 'pipeline'
-    
- 
