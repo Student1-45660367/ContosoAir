@@ -29,5 +29,9 @@
      - task: NodeTaskRunnerInstaller@0
        inputs:
             nodeVersion: '6'
+     - task: NodeTool@0
+       inputs:
+         versionSource: 'spec'
+         versionSpec: '6.x'
   
  
