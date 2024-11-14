@@ -1,3 +1,4 @@
+   
    pool:
      name: 'default'
    trigger:
@@ -25,3 +26,9 @@
          targetPath: '$(build.artifactstagingdirectory)'
          artifact: 'drop'
          publishLocation: 'pipeline'
+     - task: NodeTool@0
+       inputs:
+        versionSource: 'spec'
+        versionSpec: '6.x'
+  
+ 
